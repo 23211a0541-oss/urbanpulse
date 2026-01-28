@@ -1,6 +1,6 @@
-const Issue = require('../../backend/models/Issue');
-const User = require('../../backend/models/User'); // Required for populate to work
-const { createNotification, createNotificationsForUsers, getUsersByLocation } = require('../../../backend/services/notificationService');
+const Issue = require('../models/Issue');
+const User = require('../models/User'); // Required for populate to work
+const { createNotification, createNotificationsForUsers, getUsersByLocation } = require('../services/notificationService');
 const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.ADMIN_JWT_SECRET || process.env.JWT_SECRET || 'your-admin-secret-key-change-in-production';

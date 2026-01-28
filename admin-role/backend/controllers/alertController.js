@@ -1,6 +1,6 @@
-const Alert = require('../../backend/models/Alert');
+const Alert = require('../models/Alert');
 const Admin = require('../models/Admin');
-const { createNotificationsForUsers, getUsersByLocation } = require('../../../backend/services/notificationService');
+const { createNotificationsForUsers, getUsersByLocation } = require('../services/notificationService');
 const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.ADMIN_JWT_SECRET || process.env.JWT_SECRET || 'your-admin-secret-key-change-in-production';

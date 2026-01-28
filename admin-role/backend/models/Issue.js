@@ -140,4 +140,3 @@ issueSchema.index({ assignedAdminId: 1, status: 1, createdAt: -1 }); // Admin's 
 issueSchema.index({ 'location.city': 1, 'location.area': 1 }); // Location-based queries
 
 module.exports = mongoose.model('Issue', issueSchema);
-
