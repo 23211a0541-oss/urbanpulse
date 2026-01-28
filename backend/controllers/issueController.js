@@ -1,5 +1,5 @@
 const Issue = require('../models/Issue');
-const Admin = require('../../admin-role/backend/models/Admin');
+const Admin = require('../models/Admin');
 const jwt = require('jsonwebtoken');
 const { createNotification } = require('../services/notificationService');
 
