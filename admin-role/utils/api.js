@@ -9,7 +9,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // IMPORTANT: This is port 3001 (admin backend), different from user backend (3000)
 const API_BASE_URL = __DEV__
   ? 'http://192.168.1.7:3001' // Admin backend port (3001, different from user backend 3000)
-  : 'https://urbanpulse-admin-backend.onrender.com';
+  : 'https://urbanpulse-1-u27i.onrender.com';
 
 const TOKEN_KEY = '@urbanpulse_admin_token';
 
