@@ -154,7 +154,7 @@ export const transcribeAudio = async (audioUri, language = 'en') => {
     
     const API_BASE_URL = __DEV__
       ? 'http://192.168.1.7:3000' // Your backend URL
-      : 'https://your-production-api.com';
+      : 'https://urbanpulse-user-backend.onrender.com';
 
     const response = await fetch(`${API_BASE_URL}/api/transcribe`, {
       method: 'POST',

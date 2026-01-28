@@ -5,7 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // Make sure your phone and computer are on the same WiFi network
 const API_BASE_URL = __DEV__
   ? 'http://192.168.1.7:3000' // Your computer's IP address
-  : 'https://your-production-api.com';
+  : 'https://urbanpulse-user-backend.onrender.com';
 
 const TOKEN_KEY = '@urbanpulse_token';
 
